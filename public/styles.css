@@ -1,0 +1,57 @@
+.app {
+    height: 100vh;
+    width: 100%;
+    background-color: #B4C4C7;  
+    display: flex;      
+    justify-content: center;
+    align-items: center;
+}
+.button-panel {
+    display: flex;   
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+}
+.button-panel div {
+    width: 100%;
+    margin-bottom: 1px;
+    flex: 1 0 auto;
+    display: flex;
+}
+.button-panel button {
+    background-color: #ffffff;    
+    width: 25%;
+    height: 100%;
+    font-size: 3rem;
+    font-family: inherit;
+    background-color: white;
+    border: 1px;
+    outline: none;
+    display: flex;
+    margin: 0 1px 0 0;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s;
+}
+.calculator{
+    height: 80vh;
+    width: 25%;
+    box-shadow: 0 2rem 4rem;
+    background-color: #748C9B;
+}
+.display-result {
+    height: 19vh;
+    color: white;
+    font-size: 4rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.display-equation {
+    height: 6vh;
+    font-size: 2.5rem;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
