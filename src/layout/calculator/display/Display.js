@@ -1,12 +1,12 @@
 import React from 'react';
-
 import DisplayEquation from './DisplayEquation';
 import DisplayResult from './DisplayResult';
 
 const display = () => (
-    <section className="screen">
+    <div className="screen">
         <DisplayEquation/>
-        <DisplayResult/>
-
-    </section>
+        <DisplayResult/>    
+    </div>
 )
+
+export default display;

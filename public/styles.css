@@ -32,6 +32,7 @@ body {
     --color-light-black: #222;
     --color-black: #000;
     --color-grey: #B4C4C7;
+    --color-grey-dark: #748C9B;
 
     --shadow: rgba(0, 0, 0, .4);
 }
@@ -42,7 +43,6 @@ body {
     width: 100%;
     background-color: var(--color-grey);
     background-size: cover;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,25 +75,22 @@ body {
     padding: 0 2rem;
     overflow: hidden;
     white-space: nowrap;
-
     color: var(--color-light-white);
-    background-color: var(--color-tomato);
+    background-color: var(--color-grey-dark);
 }
 
-.computation-screen {
-    height: 6vh;
-    font-size: 2.5rem;
-    
+.display-equation{
+    height: 26vh;
+    font-size: 2.5rem;    
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-.result-screen {
-    height: 19vh;
-    font-size: 8rem;
+.display-result {
+    height: 1vh;
+    font-size: 6rem;
     font-weight: 600;
-
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -105,7 +102,7 @@ body {
     width: 100%;
 }
 
-.keypad__row {
+.keypad-row {
     height: 11vh;
     width: 100%;
     display: flex;
@@ -119,12 +116,11 @@ body {
     font-family: inherit;
     background-color: var(--color-white);
     border: 1px solid transparent;
-    outline: none;
-    
+    margin: 1px;
+    outline: none;    
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;    
     transition: all .2s;
 }
 
